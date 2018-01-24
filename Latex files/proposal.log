@@ -1,0 +1,699 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.6.3)  15 JUL 2015 16:29
+entering extended mode
+**proposal.tex
+
+("C:\Users\sanchit\Dropbox\study material\lot streaming and transporation (PIDR
+P integrated approach)\proposal1\proposal.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mathdesign.sty"
+Package: mathdesign 2006/01/29 v1.55 Math Design Project
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbch.cfg")
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbch.sty"
+Package: mdbch 2006/01/29 v1.55 bitstream charter + mdbch (Math Design Project)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdfont.def"
+File: mdfont.def 2006/01/29 v1.55 (Math Design Project)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdsffont.def"
+File: mdsffont.def 2006/01/29 v1.55 (Math Design Project)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdttfont.def"
+File: mdttfont.def 2006/01/29 v1.55 (Math Design Project)
+)
+\symmdcal=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mdcal' in version `bold'
+(Font)                  OMS/mdbch/m/n --> OMS/mdbch/b/n on input line 89.
+\symmdscr=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `mdscr' in version `bold'
+(Font)                  OMS/mdbch/m/n --> OMS/mdbch/b/n on input line 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/xmdeuf/m/n --> U/xmdeuf/b/n on input line 102.
+LaTeX Font Info:    Try loading font information for T1+mdbch on input line 111
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\t1mdbch.fd"
+File: t1mdbch.fd 2006/01/28 Fontinst v1.928 font definitions for T1/mdbch.
+)
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 111.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/mdbch/m/n on input line 114.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/mdbch/m/it on input line 115.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/mdbch/m/n on input line 116.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/mdbch/m/n on input line 117.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/mdbch/b/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/mdbch/b/it on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/mdbch/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/mdbch/b/n on input line 122.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/mdbch/m/n --> T1/mdbch/m/n on input line 124.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/mdbch/b/n on input line 125.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/mdbch/m/it on input line 126.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 127.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 128.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
+(Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 132.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/mdbch/b/n --> T1/mdbch/b/n on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/mdbch/b/n on input line 138.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/mdbch/b/it on input line 139.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/cmss/b/n on input line 140.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/b/n on input line 141.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 153.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 154.
+\symlettersupright=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lettersupright' in version `bold'
+(Font)                  OML/mdbch/m/n --> OML/mdbch/b/n on input line 190.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 193.
+\symmathdesignA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `mathdesignA' in version `bold'
+(Font)                  MDA/mdbch/m/n --> MDA/mdbch/b/n on input line 382.
+\@emptytoks=\toks16
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 421.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 422.
+\symmathdesignB=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
+(Font)                  MDB/mdbch/m/n --> MDB/mdbch/b/n on input line 685.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen111
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks20
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks21
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count102
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen120
+\ttl@minus=\dimen121
+\ttl@toksa=\toks24
+\titlewidth=\dimen122
+\titlewidthlast=\dimen123
+\titlewidthfirst=\dimen124
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks25
+\float@box=\box29
+\@float@everytoks=\toks26
+\@floatcapt=\box30
+)
+\@float@every@algorithm=\toks27
+\c@algorithm=\count104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count105
+\c@ALC@line=\count106
+\c@ALC@rem=\count107
+\c@ALC@depth=\count108
+\ALC@tlm=\skip48
+\algorithmicindent=\skip49
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
+Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count109
+\calc@Bcount=\count110
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count111
+\calc@Cskip=\skip52
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+\g_MT_multlinerow_int=\count112
+\l_MT_multwidth_dim=\dimen127
+\origjot=\skip53
+\l_MT_shortvdotswithinadjustabove_dim=\dimen128
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen129
+\l_MT_above_intertext_dim=\dimen130
+\l_MT_below_intertext_dim=\dimen131
+\l_MT_above_shortintertext_dim=\dimen132
+\l_MT_below_shortintertext_dim=\dimen133
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip54
+\f@ncyO@elh=\skip55
+\f@ncyO@erh=\skip56
+\f@ncyO@olh=\skip57
+\f@ncyO@orh=\skip58
+\f@ncyO@elf=\skip59
+\f@ncyO@erf=\skip60
+\f@ncyO@olf=\skip61
+\f@ncyO@orf=\skip62
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2011/09/01 v1.2k Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\abstract\abstract.sty"
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip63
+\absleftindent=\skip64
+\absrightindent=\skip65
+\absparindent=\skip66
+\absparsep=\skip67
+)
+("C:\Users\sanchit\Dropbox\study material\lot streaming and transporation (PIDR
+P integrated approach)\proposal1\proposal.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 77.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 77.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
+File: mdacmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 77.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 77.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd"
+File: mdbcmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 77.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: legalpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 867.24002pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=1011.78pt
+* \textwidth=469.75502pt
+* \textheight=867.24002pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count113
+\scratchdimen=\dimen136
+\scratchbox=\box31
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen137
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks29
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 77.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 23.88496pt on input line 80.
+LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
+(Font)              scaled to size 23.88496pt on input line 80.
+LaTeX Font Info:    Font shape `T1/mdbch/bx/fsc' in size <24.88> not available
+(Font)              Font shape `T1/mdbch/b/fsc' tried instead on input line 80.
+
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 23.88496pt on input line 80.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 82.
+LaTeX Font Info:    Font shape `T1/mdbch/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/mdbch/b/n' tried instead on input line 84.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 84.
+LaTeX Font Info:    Font shape `T1/mdbch/m/sl' will be
+(Font)              scaled to size 10.51207pt on input line 84.
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 89
+.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\ot1mdbch.fd"
+File: ot1mdbch.fd 2006/01/28 Fontinst v1.928 font definitions for OT1/mdbch.
+)
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 89.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 89.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 89.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 89
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omlmdbch.fd"
+File: omlmdbch.fd 2006/01/28 Fontinst v1.928 font definitions for OML/mdbch.
+)
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 11.52008pt on input line 89.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 7.68005pt on input line 89.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.76004pt on input line 89.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 89
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omsmdbch.fd"
+File: omsmdbch.fd 2006/01/28 Fontinst v1.928 font definitions for OMS/mdbch.
+)
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 89.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 89.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 89.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 89
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\omxmdbch.fd"
+File: omxmdbch.fd 2006/01/28 Fontinst v1.928 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 89.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 89.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 89.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 89.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 89.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 89.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 89
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdamdbch.fd"
+File: mdamdbch.fd 2006/01/28 Fontinst v1.928 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 89.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 89.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 89.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 89
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbch\mdbmdbch.fd"
+File: mdbmdbch.fd 2006/01/28 Fontinst v1.928 font definitions for MDB/mdbch.
+)
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 89.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 89.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 89.
+LaTeX Font Info:    Font shape `T1/mdbch/bx/n' in size <12> not available
+(Font)              Font shape `T1/mdbch/b/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 90.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 90.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 90.
+
+<Fig1.pdf, id=1, 722.7pt x 542.025pt>
+File: Fig1.pdf Graphic file (type pdf)
+ <use Fig1.pdf>
+Package pdftex.def Info: Fig1.pdf used on input line 177.
+(pdftex.def)             Requested size: 461.10667pt x 173.44534pt.
+
+Overfull \hbox (35.24466pt too wide) in paragraph at lines 89--180
+$[] $ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--180
+
+ []
+
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 180.
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Overfull \hbox (44.51674pt too wide) in paragraph at lines 191--191
+[] 
+ []
+
+
+Overfull \hbox (18.51709pt too wide) in paragraph at lines 235--235
+[] 
+ []
+
+[4 <C:/Users/sanchit/Dropbox/study material/lot streaming and transporation (PI
+DRP integrated approach)/proposal1/Fig1.pdf>] [5]
+Overfull \hbox (46.05952pt too wide) in paragraph at lines 289--289
+[] 
+ []
+
+<Fig2.pdf, id=132, 794.97pt x 614.295pt>
+File: Fig2.pdf Graphic file (type pdf)
+ <use Fig2.pdf>
+Package pdftex.def Info: Fig2.pdf used on input line 294.
+(pdftex.def)             Requested size: 359.33351pt x 173.44534pt.
+
+<Fig3.pdf, id=134, 794.97pt x 614.295pt>
+File: Fig3.pdf Graphic file (type pdf)
+ <use Fig3.pdf>
+Package pdftex.def Info: Fig3.pdf used on input line 301.
+(pdftex.def)             Requested size: 280.00656pt x 173.44534pt.
+ [6 <C:/Users/sanchit/Dropbox/study material/lot streaming and transporation (P
+IDRP integrated approach)/proposal1/Fig2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--348
+
+ []
+
+[7 <C:/Users/sanchit/Dropbox/study material/lot streaming and transporation (PI
+DRP integrated approach)/proposal1/Fig3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 348--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--351
+
+ []
+
+[8]
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 16.58891pt on input line 366.
+LaTeX Font Info:    Font shape `T1/mdbch/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/mdbch/b/n' tried instead on input line 366.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 16.58891pt on input line 366.
+LaTeX Font Info:    Font shape `T1/mdbch/bx/fsc' in size <17.28> not available
+(Font)              Font shape `T1/mdbch/b/fsc' tried instead on input line 366
+.
+LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
+(Font)              scaled to size 16.58891pt on input line 366.
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 11.52008pt on input line 370.
+ 
+AED: lastpage setting LastPage
+[9]
+("C:\Users\sanchit\Dropbox\study material\lot streaming and transporation (PIDR
+P integrated approach)\proposal1\proposal.aux") ) 
+Here is how much of TeX's memory you used:
+ 5509 strings out of 494045
+ 74713 string characters out of 3148382
+ 160284 words of memory out of 3000000
+ 8651 multiletter control sequences out of 15000+200000
+ 69925 words of font info for 94 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 31i,19n,43p,1753b,690s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/f
+onts/enc/dvips/fontname/texnansi.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/b
+itstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/ch
+arter/bchr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/mathdesign/mdbch/md-chri7m.pfb>
+Output written on proposal.pdf (9 pages, 656325 bytes).
+PDF statistics:
+ 445 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+
