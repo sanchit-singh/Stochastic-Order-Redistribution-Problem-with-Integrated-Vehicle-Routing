@@ -1,3 +1,3 @@
 # Multi-stage order redistirbution problem (stochastic demands)
-1. Demands for products is stochastic (characterized by scenarios) over muliple time periods considered.
-2. 
+1. We address a commonly observed scenario in a supply chain of some company wherein the company operates a set of warehouses or distribution centers (DCs) located in different geographi- cal locations. Each DC has a recurring demand for a set of products in a multi-period time horizon, and a demand for any one product in any time period is stochastic and scenario based.
+2. Usually, one overlooks the importance of secondary suppliers (like the other DCs under the same company that can be used as transfer points or inventory buffers) in meeting shortfall of demands, but this case deserves attention, especially when a shortfall of demands occurs (owing to prior decisions) and can not be met from primary suppliers (such as international or long distance domestic suppliers or ones which have high lead times for product delivery) in short time spans.
