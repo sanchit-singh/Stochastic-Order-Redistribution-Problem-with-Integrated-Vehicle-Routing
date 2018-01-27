@@ -1,10 +1,10 @@
 
-\documentclass[12pt,a4paper]{article}
+\documentclass[11pt,letter]{article}
 \usepackage{setspace}
 %\doublespacing
 
 \usepackage{geometry}
-\geometry{legalpaper, margin=1in}
+\geometry{legalpaper, margin=0.7in}
 
 \usepackage[T1]{fontenc}
 \usepackage[bitstream-charter]{mathdesign}
@@ -34,7 +34,7 @@
     {\color{bl} \centering \huge \sc \textbf{\@title}\par}}		% Typesetting
 \makeatother							% End definition
 
-\title{Stochastic Multi-Products Order-Redistribution Problem.\\ }
+\title{Stochastic Order-Redistribution Problem with Integrated Vehicle Routing\\}
 
 % Define a new command that prints the author(s) only
 \makeatletter							% Begin definition
@@ -42,9 +42,10 @@
     {\centering \small \@author}}				% Typesetting
 \makeatother							% End definition
 
-\author{%
+\author{% 
 	Sanchit Singh \\
-	sanchit@vt.edu \\
+	Grado Department of Industrial and Systems Engineering, \\
+	Virginia Polytechnic Institute and State University \\
 	\vspace{20pt}
 	}
 
@@ -58,7 +59,7 @@
 	\rhead{}
 	% Footer (you may change this to your own needs)
 	\lfoot{\footnotesize}
-	\cfoot{}
+	\cfoot{Copyright \textsuperscript{\copyright} 2018, Sanchit Singh. All rights reserved.}
 	\rfoot{\footnotesize page \thepage\ of \pageref{LastPage}}	% "Page 1 of 2"
 	\renewcommand{\headrulewidth}{0.0pt}
 	\renewcommand{\footrulewidth}{0.4pt}
@@ -80,19 +81,44 @@
 \printtitle 
 
 \printauthor
+\noindent
+\textbf{Problem Description}
+\\
+\\
+\begin{it}
+In this work, we address a commonly observed supply chain problem and propose new thinking approach towards solving it. A company operates a set of warehouses or \textbf{distribution centers (DC)} located in multiple geographical locations. \textbf{Each DC has a recurring demand for a set of products in a multi-period time horizon, and the demand for any one product in any time period is stochastic}. For a given time period, the exact order amount demanded at every DC is realized or known at the very start of the time period only and must be fulfilled by the end of that period. From the view point of any DC, two types of suppliers are considered: (1) \textbf{primary suppliers} that are located in either far off places like international suppliers, or, the domestic ones that have large lead times for product delivery, and (2) \textbf{secondary suppliers}, for e.g. from the viewpoint of order fulfillment at a particular DC, other DCs within the same parent company can used as buffer points and the inventory from such can be re-directed. Conventionally, the importance of utilizing secondary suppliers is often overlooked, but it deserves more attention, especially when a shortfall of order fulfillment can not be compensated through any primary supplier within a short time span. 
 
-\begin{abstract}
-We address a commonly observed scenario in a supply chain of some company wherein the company operates a set of warehouses or distribution centers (DCs) located in different geographical locations. Each DC has a recurring demand for a set of products in a multi-period time horizon, and a demand for any one product in any time period is stochastic and scenario based. Demands have to be met at a DC within that time-period after they are realized. From the view point of any DC, we  consider three types of suppliers; one-primary suppliers that are located in far off places like international suppliers, two-primary suppliers that can be considered domestic and are nearby, and, three-secondary suppliers like other DCs (under the same company) which can used as transfer points or inventory buffers. \\
-Usually, one overlooks the importance of secondary suppliers in meeting shortfall of demands, but this case deserves attention, especially when a shortfall of demands occurs (owing to prior decisions) and can not be met from primary suppliers in short time spans. Therefore, in this study, we consider the first and third type of suppliers, as mentioned above. The primary supplier located far off can be requested to send a shipment in fixed time (although relatively large) to its receiving DC. For sake of convenience, we assume that only one supplier can make a single shipment in any one time period to a DC, although the primary supplier can still supply an assortment of products in that shipment. The decisions made here (we call this as "order phase") are how much to order for each product (under certain constraints), that the supplier provides, and in which time periods. Since the demand for each product at its corresponding DC in various time periods are stochastic, the system is allowed to make recourse decisions, after any particular product's demand realization at some DC. This brings us to the role of secondary suppliers, i.e. few DCs serve as suppliers for certain products to others, with such re-routing of products to be accomplished within one time-period. The decisions made here (we call this as "redistribution phase") are what quantity of pickup or delivery does the DCs require for any product and how to plan routes for in-house fleet of vehicles to serve these in a constrained manner. The second part of decisions in any time period are closely related to another problem in transportation known as \emph{Pickup and Delivery Vehicle Routing Problems with Time Windows} (PDVRPTW). \\
-There are some variations which can be easily integrated within our model, making the problem more realistic from a company's viewpoint, at the same time more intractable. Therefore, we shall discount these variations in our current study, and keep them aside for future study. We will discuss these here in brief. (i) Accounting for one or more of transfer points might either be a necessary condition (like in multi-modal transportation), or even if not, a better strategy in PDVRPTW. (ii) Multiple shipments could be arriving at any DC from various suppliers in any one time period. (iii) The company might be using its own fleet of vehicles for transportation of some of the products form its primary suppliers which are domestic. In that case, vehicles can be used not just for internal redistribution between DCs, but also for transportation of products from external primary suppliers located domestically. (iv) Note that, we have considered that all products arriving at various DCs are ready made ones, which are bought as it is, without consideration for their assembly (serial, parallel or mix of both) or related activities as is common in make-to-assemble or just-in-time systems. This will introduce additional complexity in the problem since the product specific processes will also have to be monitored, which may or may not be under the company's control, but none the less such integration will bring us closer to actual requirements in the industry and give us an opportunity to implement philosophies such as lot-streaming or deploying multiple sourcing for a product etc in a meaningful way.
-\end{abstract}
-\underline{Fundamental sets}: \\
+For a given time period, the decision making is divided into two stages in order of sequence: (1) \textbf{order phase}, and (2) \textbf{re-distribution phase}. During the order phase, a DC places a shipment order for an assortment of products (anticipating future demand) with a particular primary supplier, upon which the shipment is received at it after a couple of time periods. It is assumed here for the sake of simplicity that one supplier can deliver only a single shipment in a time period to its receiving DC. During the re-distribution phase, the demand for each product at its corresponding DC is realized or known exactly, and recourse decisions are made to compensate for any un-fulfilled demand at any DC in the network. This brings us to the role of secondary suppliers. A DC not only acts as a demand point but also serves as a supply point for other DCs in the network. Re-routing or re-distribution of products is accomplished using a fleet of vehicles. During the re-distribution phase, after deciding upon how much to pick and/or deliver at individual DCs, the routing decision making problem is what is known in literature as \textbf{Pickup and Delivery Vehicle Routing Problems with Time Windows (PDVRPTW)}.
+\end{it}
+\\
+\\
+\textbf{Practical considerations}
+\\
+\\
+From practical point of view, a couple of extra features added to the above problem description will render it more realistic, while at the same time increasing its tractability. Therefore, we discount them in current model formulation, and mention them here only in brief:
+\begin{enumerate}
+\item Accounting for one or more of transfer points might either be a necessary condition (like in multi-modal transportation), or even if not, a better strategy in PDVRPTW. 
+\item Multiple shipments could be arriving at any DC from various suppliers in any one time period.
+\item The company might be using its own fleet of vehicles for transportation of some of the products form its primary suppliers which are domestic. In that case, vehicles can be used not just for internal redistribution between DCs, but also for transportation of products from external primary suppliers located domestically.
+\item Note that, we have considered that all products arriving at various DCs are ready made ones, which are bought as it is, without consideration for their assembly (serial, parallel or mix of both) or related activities as is common in make-to-assemble or just-in-time systems. This will introduce additional complexity in the problem since the product specific processes will also have to be monitored, which may or may not be under the company's control, but none the less such integration will bring us closer to actual requirements in the industry and give us an opportunity to implement philosophies such as lot-streaming or deploying multiple sourcing for a product etc in a meaningful way.
+\end{enumerate}
+
+\noindent
+We propose one integer programming model for the deterministic demand case, and a stochastic programming model for stochastic demand case.
+
+\noindent
+\textbf{Model Formulation}
+\\
+\\
+\underline{Notation and Parameters} \\ \\
+Fundamental sets: \\
 $\textbf{I}$ \quad = \{1,2,\ldots ,|\textbf{I}|\}, set of products \\
 $\textbf{J}$ \quad = \{1,2,\ldots ,|\textbf{J}|\}, set of DCs \\
 $\textbf{T}$ \quad = \{1,2,\ldots ,|\textbf{T}|\}, set of time periods \\
 $\textbf{V}$ \quad = \{1,2,\ldots ,|\textbf{V}|\}, set of vehicles operating in each time period \\
 $(i,\bar{t},j)\in \textbf{ITJ}$ \quad = set of triplets, representing whether product $i$ can be shipped to DC $j$ in time period $\bar{t}$ $(1\leq \bar{t} \leq |\textbf{T}|-1)$, from its primary supplier \\
-\underline{Shipping from primary suppliers related}: \\
+\\
+Shipping from primary suppliers related: \\
 $lt_{i,\bar{t}}^{j}$ \quad lead time for shipment indexed as $(i,\bar{t},j)\in \textbf{ITJ}$ such that it arrives at the DC $j$ at the start of time period $\bar{t}+lt_{i,\bar{t}}^{j}$, $lt_{i,\bar{t}}^{j}\geq 1$, and $\bar{t}+lt_{i,\bar{t}}^{j}\leq |\textbf{T}|, \forall (i,\bar{t},j)\in \textbf{ITJ}$\\
 $sfc_{\bar{t}}^{j}$ \quad fixed cost to make a shipment (of various products) to DC $j$ in time period $\bar{t}$ such that, $\forall (i,\bar{t},j)\in \textbf{ITJ}$ \\
 $svc_{i,\bar{t}}^{j}$ \quad cost per unit volume for shipping product $i$ to DC $j$ in time period $\bar{t}$ such that, $\forall (i,\bar{t},j)\in \textbf{ITJ}$\\
@@ -105,12 +131,14 @@ $swm_{i,\bar{t}}^{j}$ \quad shipping maximum weight allowed for product $i$ in t
 $\widehat{swm}_{\bar{t}}^{j}$ \quad shipping maximum weight allowed for all products in time period $\bar{t}$ to DC $j$ such that, $\forall (i,\bar{t},j)\in \textbf{ITJ}$\\
 $d_{i,t}^{j}$ \quad demand (zero or positive) of product $i$ at DC $j$ in time period $t$ $(t\geq 2)$ \\
 $dlc_{i,t}^{j}$ \quad cost for incurring the demand loss of a unit of product $i$ at DC $j$ in time period $t$ $(t\geq 2)$ \\
-\underline{Inventory at DCs related}: \\
+\\
+Inventory at DCs related: \\
 $ivc_{i,t}^{j}$ \quad inventory cost to carry unit volume of product $i$ from time period $t$ to $t+1$ for DC $j$ \\
 $ivu_{i}^{j}$ \quad inventory volume utilization per unit of product $i$ (same in any time period) for DC $j$ \\
 $ivm_{i,t}^{j}$ \quad inventory maximum volume allowed for product $i$ in time period $t$ for DC $j$ \\
 $\widehat{ivm}_{t}^{j}$ \quad inventory maximum volume allowed for all products in time period $t$ for DC $j$ \\
-\underline{Transportation among DCs (PDVRP) related}: \\
+\\
+Transportation among DCs (PDVRPTW) related: \\
 \textbf{P} \quad = \{1,2,\ldots ,$n$\}, set of pickup nodes, $n$ = |\textbf{J}|*|\textbf{I}|*(|\textbf{J}|-1) \\
 \textbf{D} \quad = \{$n$+1,$n$+2,\ldots ,2$n$\}, set of delivery nodes \\
 \textbf{O} \quad = \{2$n$+1,2$n$+2,\ldots ,$2n+|\textbf{V}|$\}, set of nodes representing depots for vehicles \\
@@ -125,8 +153,12 @@ $st_{v}^{j}$ \quad fixed service time required to load or unload a vehicle $v$ a
 $\epsilon_v$ \quad minimum pickup quantity required from any node by vehicle $v \in \textbf{V}$ \\
 $q_v$ \quad maximum vehicle capacity $v \in \textbf{V}$ \\
 $\tau$ \quad time length of any one period \\
-\underline{Variables}: \\
-All the variables are represented in upper case, and the parameters in lower case. \\
+\\
+
+\pagebreak
+\noindent
+\underline{Variables} \\
+\\
 $
 \begin{matrix*}[l]
 P_{i,\bar{t},t}^{j} & \forall (i,\bar{t},j)\in \textbf{ITJ}, \forall t \in \textbf{T} 
@@ -170,8 +202,11 @@ V_{v,t}^{k} & \forall v \in \textbf{V}, \forall k \in \textbf{N}, \forall t \in 
 W_{v,t}^{j,k} & \forall v \in \textbf{V}, \forall (j,k) \in \textbf{A}, \forall t \in \textbf{T}  
 & \parbox[t]{0.65\linewidth}{$=V_{v,t}^{k}\times X_{v,t}^{j,k}$}
 \end{matrix*}
-$ \\ \\
-Some understanding of variables above can be made from Figure \ref{fig:product_i_timeperiod_t}. 
+$ 
+\\ 
+\\
+\\
+Figure \ref{fig:product_i_timeperiod_t} illustrates various decisions taken during a time period at a DC. 
 \begin{figure}[H]
 \centering
 \includegraphics[trim=1cm 7cm 3cm 4cm, clip=true, totalheight=0.2\textheight]{Fig1.pdf}
@@ -179,7 +214,10 @@ Some understanding of variables above can be made from Figure \ref{fig:product_i
 \label{fig:product_i_timeperiod_t}
 \end{figure}
 
-MILP model, \textbf{M1}: \\
+We now present model \textbf{M1} for the deterministic demand case.
+\pagebreak
+
+Model \textbf{M1}: \\
 \begin{align*}
 \text{min } & \sum_{
 \begin{matrix}
@@ -187,7 +225,7 @@ j\in \textbf{J},\bar{t} \in \textbf{T}, \\
 \exists (i,\bar{t},j) \in \textbf{ITJ}
 \end{matrix}
 } sfc_{\bar{t}}^{j}Z_{\bar{t}}^{j} + \sum_{(i,\bar{t},j) \in \textbf{ITJ}} (svc_{i,\bar{t}}^{j} svu_{i,\bar{t}}^{j} +swc_{i,\bar{t}}^{j} swu_{i,\bar{t}}^{j}) P_{i,\bar{t},\bar{t}}^{j} +\sum_{i\in \textbf{I}, j\in \textbf{J}, t \in \textbf{T}} (dlc_{i,t}^{j} D_{i,t}^{j{''}} + ivc_{i,t}^{j} ivu_{i,t}^{j} S_{i,t}^{j}) \\
-& + \sum_{t\in \textbf{T}, v\in \textbf{V}} tfc_{v} Y_{v,t}^{2n+v} + \sum_{t\in \textbf{T}, v\in \textbf{V}, j \in \textbf{J}, (j,k) \in \textbf{A}} tvc_{v}^{j,k} W_{v,t}^{j,k}
+& \qquad \qquad + \sum_{t\in \textbf{T}, v\in \textbf{V}} tfc_{v} Y_{v,t}^{2n+v} + \sum_{t\in \textbf{T}, v\in \textbf{V}, j \in \textbf{J}, (j,k) \in \textbf{A}} tvc_{v}^{j,k} W_{v,t}^{j,k}
 \end{align*}
 \begin{align}
 P_{i,\bar{t},t}^{j} & = 0 && \quad \forall 1\leq t\leq \bar{t}-1, \forall \bar{t}+lt_{i,\bar{t}}^{j}+1 \leq t \leq |\textbf{T}|, \nonumber\\
@@ -198,7 +236,6 @@ svu_{i,\bar{t}}^{j}P_{i,\bar{t},\bar{t}}^{j} & \leq svm_{i,\bar{t}}^{j} && \quad
 swu_{i,\bar{t}}^{j}P_{i,\bar{t},\bar{t}}^{j} & \leq swm_{i,\bar{t}}^{j} && \quad \forall (i,\bar{t},j)\in \textbf{ITJ} \\
 \sum_{(i,\bar{t},j)\in \textbf{ITJ} } swu_{i,\bar{t}}^{j}P_{i,\bar{t},\bar{t}}^{j} & \leq \widehat{swm}_{\bar{t}}^{j} && \quad \forall j\in \textbf{J}, \forall \bar{t} \in \textbf{T} \\
 P_{i,\bar{t},\bar{t}}^{j} & \leq M Z_{\bar{t}}^{j} && \quad \forall (i,\bar{t},j)\in \textbf{ITJ} \\
-& \text{where } M \text{ is a big number} && \nonumber \\
 D_{0,i,t}^{j} & = S_{i,t-1}^{j}+\sum_{
 \begin{matrix} 
 (i,\bar{t},j)\in \textbf{ITJ} \\
@@ -287,23 +324,27 @@ V_{v,t}^{k} & \geq 0 & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \
 \end{matrix}
 \qquad \right\}
 \end{align}
-The first term in the objective is the fixed cost associated with ordering shipments from suppliers; second and third term being the volume utilization and weight utilization costs to carry products in the shipments. The fourth term is the cost of losing demand and fifth term is cost of carrying inventories. The first five terms give us a cost for the "order phase" and the last two for "redistribution phase". The sixth term is the fixed cost of using the vehicles, and the last term is the variable cost dependent on loads (volume) carried between various nodes in PDVRP problem or "redistribution phase". \\
-A small instance with only three DCs and single product is being illustrated in Figure \ref{fig:redistribution_producti_all3DCs}, aiding us to understand (\ref{eq:Fig2_1}) and (\ref{eq:Fig2_2}).
+The first term in the objective is the fixed cost associated with ordering shipments from suppliers; second and third term being the volume utilization and weight utilization costs to carry products in the shipments. The fourth term is the cost of losing demand and fifth term is cost of carrying inventories. The first five terms give us a cost for the "order phase" and the last two for "redistribution phase". The sixth term is the fixed cost of using the vehicles, and the last term is the variable cost dependent on loads (volume) carried between various nodes in PDVRPTW problem or "redistribution phase". \\
+\\
+A small instance with only three DCs and single product is being illustrated in Figure \ref{fig:redistribution_producti_all3DCs}, to understand (\ref{eq:Fig2_1}) and (\ref{eq:Fig2_2}) more clearly.
 \begin{figure}[H]
 \centering
 \includegraphics[trim=3cm 4cm 3cm 7cm, clip=true, totalheight=0.2\textheight]{Fig2.pdf}
 \caption{A small instance of redistribution of product $i$ (and the only product)in time period $t$, represented by a flow diagram between three DCs}
 \label{fig:redistribution_producti_all3DCs}
 \end{figure}
-In Figure \ref{fig:PDVRP_total12nodes}, we present the same network as shown in Figure \ref{fig:redistribution_producti_all3DCs}, adapted for PDVRP, where pickup and demand points are shown and aid our understanding of (\ref{eq:link}) and (\ref{eq:Fig3_2}).
+
+\noindent
+In Figure \ref{fig:PDVRP_total12nodes}, we present the same network as shown in Figure \ref{fig:redistribution_producti_all3DCs}, adapted for PDVRPTW, where pickup and demand points are shown and aid our understanding of (\ref{eq:link}) and (\ref{eq:Fig3_2}).
 \begin{figure}[H]
 \centering
 \includegraphics[trim=3cm 3cm 3cm 5cm, clip=true, totalheight=0.2\textheight]{Fig3.pdf}
-\caption{An equivalent graph for the graph shown in Fig \ref{fig:redistribution_producti_all3DCs}, adapted for PDVRP problem}
+\caption{An equivalent graph for the graph shown in Fig \ref{fig:redistribution_producti_all3DCs}, adapted for PDVRPTW problem}
 \label{fig:PDVRP_total12nodes}
 \end{figure}
 
-Let us show how to linearize nonlinear "max" function with equality sign, in (\ref{eq:max1}) (rest of (\ref{eq:max2})-(\ref{eq:max4}) follow the same): \\
+\noindent
+Let us show how to linearize nonlinear "max" function with equality sign, in (\ref{eq:max1}) (rest of (\ref{eq:max2})-(\ref{eq:max4}) follow the same):
 \begin{align}
 D_{1,i,t}^{j} & = \max(D_{0,i,t}^{j}-d_{i,t}^{j},0) 
 \qquad \qquad \qquad \qquad \qquad \nonumber \\
@@ -320,12 +361,14 @@ D_{0,i,t}^{j}-d_{i,t}^{j} & \leq & M \lambda_{i,t}^{j} \\
 \end{matrix*} \right.
 \end{align}
 
-
-Before we discuss the stochasticity in demands that we deal in our paper, let us first present a brief methodology for dealing with linear deterministic equivalent of stochastic programs. We refer the reader to \cite{Dantzig1993} for this. In the model \textbf{M1}, the demands $d_{i,t}^{j}, \forall (i,\bar{t},j)\in \textbf{ITJ}$, are deterministic, but our goal is to study the case when these are stochastic and spanning multiple time periods, and defined by individual demand scenarios. \\
+\noindent
+Before we discuss the stochasticity in demands, let us first present a brief methodology for dealing with linear deterministic equivalent of stochastic programs. We refer the reader to \cite{Dantzig1993} for this. In the model \textbf{M1}, the demands $d_{i,t}^{j}, \forall (i,\bar{t},j)\in \textbf{ITJ}$, are deterministic, but our goal is to study the case when these are stochastic and spanning multiple time periods, and defined by individual demand scenarios. \\
 Let us define sets $\textbf{SI}_{i,t}^{j}$ and $\textbf{ST}_{t}, \forall i\in \textbf{I}, j\in \textbf{J}, t=2,3,\ldots ,|\textbf{T}|$, containing scenarios for demands in individual case and that for collective case for each time period, respectively. \\
+\\
 $\textbf{SI}_{i,t}^{j}=\{1,2,\ldots ,|\textbf{SI}_{i,t}^{j}|\}, \forall i\in \textbf{I}, j\in \textbf{J}, t=2,3,\ldots ,|\textbf{T}|$. Each scenario, $s_{i,t}^{j}\in \textbf{SI}_{i,t}^{j}$ is associated with a demand $d(s_{i,t}^{j})\geq 0$ (equivalent of $d_{i,t}^{j}$, for the stochastic case), with probability of occurrence $0<p(s_{i,t}^{j})\leq 1$, with $\sum_{s_{i,t}^{j}\in \textbf{SI}_{i,t}^{j}} p(s_{i,t}^{j})=1$. There can be two cases for $\textbf{SI}_{i,t}^{j}=\{1\}$, one, when the demand exists but is deterministic, and two, when there is no demand at all, i.e. $(i,t,j)\not \in \textbf{ITJ}$; in either case, we have $p(s_{i,t}^{j})=1$. \\
+\\
 $\textbf{ST}_{t}=\{(x_{1},x_{2},\ldots,x_{|\textbf{I}||\textbf{J}|})|x_{|\textbf{J}|(i-1)+j}=s_{i,t}^{j}\in \textbf{SI}_{i,t}^{j}, \forall i\in \textbf{I},j\in \textbf{J}\}, \forall t=2,\ldots ,|\textbf{T}|$. An element of this set, $\omega_{t}=(x_{1},x_{2},\ldots,x_{|\textbf{I}||\textbf{J}|})\in \textbf{ST}_{t}$, represents a collective scenario for all demands in time period $t$. The probability associated with $\omega_t$ is $p(\omega_t)=\prod_{ij=1,\ldots ,|\textbf{I}||\textbf{J}|} p(x_{ij})$. The number of such scenarios in time period $t$ is given by $|\textbf{ST}_{t}|=\prod_{i\in \textbf{I},j\in \textbf{J}} |\textbf{SI}_{i,t}^{j}|, \forall t=2,\ldots ,|\textbf{T}|$. We will alternatively use $\tilde{\omega_t}$ to represent a random variable whose domain comes from the set $\textbf{ST}_t$, and each instance is the element $\omega_t\in \textbf{ST}_t$.\\
-
+\\
 We break the time horizon in $|\textbf{T}|$ stages and reformulate model $\textbf{M1}$ for the deterministic equivalent of multistage "Stochastic Multi-Products Order-Redistribution Problem" with decisions in stage $t$ represented collectively by $y_t^{\tilde{\omega_t},\ldots ,\tilde{\omega_2}}, \forall t=2,\ldots ,|\textbf{T}|$ and by $y_1$ for $t=1$. We call this model as \textbf{M2}. Variables in stage 1 (i.e. $t=1$) are not scenario dependent, but for the rest of the stages, they are decided as per the realization of sequence of random variables ($\tilde{\omega_t},\ldots ,\tilde{\omega_2}$). Let us re-write all the variables that were mentioned earlier in model $\textbf{M1}$, which we now alternatively, and collectively refer to as $y_t^{\tilde{\omega_t},\ldots ,\tilde{\omega_2}}, \forall t=2,\ldots ,|\textbf{T}|$, or just, $y_t$: \\
 
 $
@@ -347,7 +390,7 @@ $ \\
 In addition to the above, $y$ variables will also include necessary slack variables to reduce all the stage $t$ constraints in the equality form as follows ($A_{t}$ and $B_{t-1}$ are the coefficient matrices and deterministic, whereas $b_t^{\tilde{\omega_t}}$ is the constant matrix which is dependent on scenario realization in stage $t$): \\
 \[-B_{t-1} y_{t-1}^{\tilde{\omega_{t-1}},\ldots ,\tilde{\omega_2}} + A_{t} y_{t}^{\tilde{\omega_{t}},\ldots ,\tilde{\omega_2}}	= b_{t}^{\tilde{\omega_{t}}} \] \\
 Now , we can write model \textbf{M2} with the new notation discussed above.\\ \\
-MILP model, \textbf{M2}: \\
+Multi-stage Stochastic Model \textbf{M2}: \\
 \begin{align*}
 \text{min }z & = c_1 y_1 +E (c_2 y_2^{\tilde{\omega_2}} +\ldots + E (c_{|\textbf{T}|} y_{|\textbf{T}|}^{\tilde{\omega_{|\textbf{T}|}},\ldots ,\tilde{\omega_2}}) \ldots )
 \end{align*}
